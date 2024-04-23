@@ -1,0 +1,39 @@
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,100..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* Font families */
+h1,
+h3,
+#categories p {
+  font-family: "Montagu Slab", serif; /* Set font family for headings and category names */
+}
+
+button {
+  font-family: "Montagu Slab", serif; /* Set font family for buttons */
+}
+
+#p1,
+#home-h1,
+#profile #list p {
+  font-family: "Montserrat", sans-serif; /* Set font family for specific elements */
+}
+
+/* Hide scrollbar */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Active tab styles */
+.tab.active {
+  color: rgb(168 85 247); /* Set text color for active tab */
+  font-weight: bold; /* Set font weight for active tab */
+}

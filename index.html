@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Set character encoding -->
+    <meta charset="UTF-8" />
+    <!-- Responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title of the document -->
+    <title>Document</title>
+    <!-- Include Tailwind CSS from CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Include custom stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Link to Web Awesome layout stylesheet -->
+    <link
+      rel="stylesheet"
+      data-purpose="Layout StyleSheet"
+      title="Web Awesome"
+      href="/css/app-wa-462d1fe84b879d730fe2180b0e0354e0.css?vsn=d"
+    />
+    <!-- Include Font Awesome icon styles -->
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.1/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-thin.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-solid.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-regular.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-light.css"
+    />
+  </head>
+
+  <body
+    class="bg-gradient-to-r from-indigo-300 from-20% via-pink-300 to-rose-300 to-90% w-screen h-screen"
+  >
+    <!-- Heading Section -->
+    <div id="heading" class="flex w-full items-center justify-center gap-5">
+      <!-- Main Heading -->
+      <h1 class="text-center text-5xl pt-5">MOBILE TAB NAVIGATION</h1>
+      <!-- Mobile Icon -->
+      <i class="fa-light fa-mobile-notch text-5xl mt-4"></i>
+    </div>
+
+    <!-- Main Content Section -->
+    <div id="main" class="w-full items-center flex justify-center py-6">
+      <!-- Phone Frame -->
+      <div
+        id="phone"
+        class="h-[38rem] w-[20rem] rounded-xl flex flex-col items-center justify-center relative bg-white shadow-black shadow-2xl"
+      >
+        <!-- Phone Top Section -->
+        <div
+          id="phone-top"
+          class="flex items-center justify-between px-4 py-2 w-full"
+        >
+          <!-- Time Display -->
+          <div class="time font-semibold">9.00AM</div>
+          <!-- Icons: Signal, Wifi, Battery -->
+          <div class="top-right">
+            <ul class="list flex gap-2">
+              <li><i class="fa-solid fa-signal-bars"></i></li>
+              <li><i class="fa-regular fa-wifi"></i></li>
+              <li>
+                <i class="fa-regular fa-battery-three-quarters"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          id="sections"
+          class="w-[20rem] h-[38rem] bg-black-400 rounded-b-xl flex flex-row bg-white overflow-hidden"
+        >
+          <!-- Container for Sections -->
+          <div
+            id="home"
+            class="sec w-[20rem] flex flex-col h-full rounded-xl gap-1 overflow-y-scroll"
+          >
+            <!-- Heading -->
+            <h1 id="home-h1" class="text-center text-3xl font-bold pt-5">
+              VOGUE VERSE
+            </h1>
+            <!-- Main Content -->
+            <div id="home-main" class="flex flex-col gap-2">
+              <!-- Top Section -->
+              <div
+                id="home-top"
+                class="flex p-2 items-center justify-center relative"
+              >
+                <!-- Hero Image -->
+                <div id="home-hero" class="flex flex-col relative">
+                  <img
+                    src="./images/image1.jpg"
+                    alt=""
+                    class="object-cover h-full w-full rounded-[3rem] opacity-95 relative"
+                  />
+                  <!-- Top Content Overlay -->
+                  <div
+                    id="top-content"
+                    class="absolute bottom-2 left-6 items-start justify-center flex flex-col"
+                  >
+                    <p id="p1" class="text-4xl font-semibold">
+                      BLACK <br />FRIDAY
+                    </p>
+                    <p
+                      class="text-amber-500 text-3xl font-mono font-bold italic"
+                    >
+                      #SALE
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Bottom Section -->
+              <div
+                id="home-bottom"
+                class="w-full flex flex-wrap items-center justify-center gap-1 relative"
+              >
+                <!-- Item List -->
+                <div class="list flex flex-col relative">
+                  <img
+                    src="./images/image2.jpg"
+                    alt=""
+                    class="w-32 h-36 object-cover rounded-br-xl rounded-l-xl relative"
+                  />
+                  <!-- Heart Icon -->
+                  <div id="heart" class="text-3xl absolute right-1 top-2/4">
+                    <i class="fa-solid fa-circle-heart"></i>
+                  </div>
+                  <!-- Item Content -->
+                  <div
+                    class="list-content flex flex-col items-center justify-center"
+                  >
+                    <p class="text-gray-500 font-bold">TURTLE NECK</p>
+                    <p class="text-black font-bold italic">$575.78</p>
+                  </div>
+                </div>
+                <!-- Item List -->
+                <div class="list flex flex-col relative">
+                  <img
+                    src="./images/coat.jpg"
+                    alt=""
+                    class="w-32 h-36 object-cover rounded-bl-xl rounded-r-xl relative"
+                  />
+                  <!-- Heart Icon -->
+                  <div id="heart" class="text-3xl absolute right-1 top-2/4">
+                    <i class="fa-solid fa-circle-heart"></i>
+                  </div>
+                  <!-- Item Content -->
+                  <div
+                    class="list-content flex flex-col items-center justify-center"
+                  >
+                    <p class="text-gray-500 font-bold">TRENCH COAT</p>
+                    <p class="text-black font-bold italic">$625.78</p>
+                  </div>
+                </div>
+                <!-- Item List -->
+                <div class="list flex flex-col relative">
+                  <img
+                    src="./images/image3.jpg"
+                    alt=""
+                    class="w-32 h-36 object-cover rounded-bl-xl rounded-r-xl relative"
+                  />
+                  <!-- Heart Icon -->
+                  <div id="heart" class="text-3xl absolute right-1 top-2/4">
+                    <i class="fa-solid fa-circle-heart"></i>
+                  </div>
+                  <!-- Item Content -->
+                  <div
+                    class="list-content flex flex-col items-center justify-center"
+                  >
+                    <p class="text-gray-500 font-bold">CORD SET</p>
+                    <p class="text-black font-bold italic">$328.28</p>
+                  </div>
+                </div>
+                <!-- Item List -->
+                <div class="list flex flex-col relative">
+                  <img
+                    src="./images/image4.jpg"
+                    alt=""
+                    class="w-32 h-36 object-cover rounded-bl-xl rounded-r-xl relative"
+                  />
+                  <!-- Heart Icon -->
+                  <div id="heart" class="text-3xl absolute right-1 top-2/4">
+                    <i class="fa-solid fa-circle-heart"></i>
+                  </div>
+                  <!-- Item Content -->
+                  <div
+                    class="list-content flex flex-col items-center justify-center"
+                  >
+                    <p class="text-gray-500 font-bold">OVERCOAT</p>
+                    <p class="text-black font-bold italic">$525.78</p>
+                  </div>
+                </div>
+                <!-- Item List -->
+                <div class="list flex flex-col relative">
+                  <img
+                    src="./images/image6.jpg"
+                    alt=""
+                    class="w-32 h-36 object-cover rounded-bl-xl rounded-r-xl relative"
+                  />
+                  <!-- Heart Icon -->
+                  <div id="heart" class="text-3xl absolute right-1 top-2/4">
+                    <i class="fa-solid fa-circle-heart"></i>
+                  </div>
+                  <!-- Item Content -->
+                  <div
+                    class="list-content flex flex-col items-center justify-center"
+                  >
+                    <p class="text-gray-500 font-bold">TRENCH COAT</p>
+                    <p class="text-black font-bold italic">$625.78</p>
+                  </div>
+                </div>
+                <!-- Item List -->
+                <div class="list flex flex-col relative">
+                  <img
+                    src="./images/image7.jpg"
+                    alt=""
+                    class="w-32 h-36 object-cover rounded-bl-xl rounded-r-xl relative"
+                  />
+                  <!-- Heart Icon -->
+                  <div id="heart" class="text-3xl absolute right-1 top-2/4">
+                    <i class="fa-solid fa-circle-heart"></i>
+                  </div>
+                  <!-- Item Content -->
+                  <div
+                    class="list-content flex flex-col items-center justify-center"
+                  >
+                    <p class="text-gray-500 font-bold">TRENCH COAT</p>
+                    <p class="text-black font-bold italic">$625.78</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            id="category"
+            class="sec w-[20rem] h-full overflow-y-scroll pt-3 hidden"
+          >
+            <!-- Category Section -->
+            <h3 class="text-3xl text-center font-bold">CATEGORIES</h3>
+            <div
+              id="categories"
+              class="flex flex-col p-5 gap-1 w-full items-center justify-center"
+            >
+              <!-- First Row of Categories -->
+              <div id="row-1" class="flex gap-2">
+                <!-- Category: Tops -->
+                <div class="category-item">
+                  <img
+                    src="./images/top.jpg"
+                    alt=""
+                    class="object-cover h-32 w-32 rounded-l-xl rounded-br-xl"
+                  />
+                  <p class="text-center font-semibold">TOPS</p>
+                </div>
+
+                <!-- Category: Dresses -->
+                <div class="category-item">
+                  <img
+                    src="./images/dress.jpg"
+                    alt=""
+                    class="object-cover h-32 w-32 rounded-r-xl rounded-bl-xl"
+                  />
+                  <p class="text-center font-semibold">DRESSES</p>
+                </div>
+              </div>
+              <!-- Second Row of Categories -->
+              <div id="row-2" class="flex gap-2">
+                <!-- Category: Jeans -->
+                <div class="category-item">
+                  <img
+                    src="./images/jeans.jpg"
+                    alt=""
+                    class="object-cover h-32 w-32 rounded-l-xl rounded-br-xl"
+                  />
+                  <p class="text-center font-semibold">JEANS</p>
+                </div>
+
+                <!-- Category: Gowns -->
+                <div class="category-item">
+                  <img
+                    src="./images/gown.jpg"
+                    alt=""
+                    class="object-cover h-32 w-32 rounded-r-xl rounded-bl-xl"
+                  />
+                  <p class="text-center font-semibold">GOWNS</p>
+                </div>
+              </div>
+              <!-- Third Row of Categories -->
+              <div id="row-3" class="flex gap-2">
+                <!-- Category: Saree -->
+                <div class="category-item">
+                  <img
+                    src="./images/saree.jpg"
+                    alt=""
+                    class="object-cover h-32 w-32 rounded-l-xl rounded-br-xl"
+                  />
+                  <p class="text-center font-semibold">SAREE</p>
+                </div>
+
+                <!-- Category: Sweater -->
+                <div class="category-item">
+                  <img
+                    src="./images/sweater.jpg"
+                    alt=""
+                    class="object-cover h-32 w-32 rounded-r-xl rounded-bl-xl"
+                  />
+                  <p class="text-center font-semibold">SWEATER</p>
+                </div>
+              </div>
+              <!-- Fourth Row of Categories -->
+              <div id="row-4" class="flex gap-2">
+                <!-- Category: Jackets -->
+                <div class="category-item">
+                  <img
+                    src="./images/jacket.jpg"
+                    alt=""
+                    class="object-cover h-32 w-32 rounded-l-xl rounded-br-xl"
+                  />
+                  <p class="text-center font-semibold">JACKETS</p>
+                </div>
+
+                <!-- Category: Coats -->
+                <div class="category-item">
+                  <img
+                    src="./images/coat.jpg"
+                    alt="Random Image 1"
+                    class="object-cover h-32 w-32 rounded-r-xl rounded-bl-xl"
+                  />
+                  <p class="text-center font-semibold">COATS</p>
+                </div>
+              </div>
+              <!-- Fifth Row of Categories -->
+              <div id="row-5" class="flex gap-2">
+                <!-- Category: Skirts -->
+                <div class="category-item">
+                  <img
+                    src="./images/skirts.jpg"
+                    alt=""
+                    class="object-cover h-32 w-32 rounded-r-xl rounded-bl-xl"
+                  />
+                  <p class="text-center font-semibold">SKIRTS</p>
+                </div>
+                <!-- Category: Lehngas -->
+                <div class="category-item">
+                  <img
+                    src="./images/lehnga.jpg"
+                    alt=""
+                    class="object-cover h-32 w-32 rounded-l-xl rounded-br-xl"
+                  />
+                  <p class="text-center font-semibold">LEHNGAS</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            id="cart"
+            class="sec flex flex-col items-center gap-1 w-[20rem] hidden"
+          >
+            <!-- Cart Section -->
+            <h3 class="text-center text-3xl font-bold pt-2">Cart</h3>
+            <!-- Cart Items List -->
+            <div id="cart-list" class="flex flex-col gap-2">
+              <!-- Cart Item 1 -->
+              <div class="item flex gap-7">
+                <!-- Item Image -->
+                <img
+                  src="./images/item1.jpg"
+                  alt=""
+                  class="h-24 w-24 object-cover rounded-xl"
+                />
+                <!-- Item Details -->
+                <div class="price flex flex-col gap-0.5">
+                  <p class="text-base text-gray-500">JACKET</p>
+                  <p class="font-bold italic text-base">$368.58</p>
+                  <p class="text-base">
+                    <span class="text-gray-500 text-base">Size</span> XL
+                  </p>
+                </div>
+                <!-- Quantity Selector -->
+                <div
+                  class="quantity leading-none flex flex-col items-center justify-center border-2 border-gray-500 border-dashed rounded-xl text-center gap-2 p-1.5"
+                >
+                  <p class="font-bold">+</p>
+                  <p class="font-bold">1</p>
+                  <p class="font-bold">-</p>
+                </div>
+              </div>
+              <!-- Cart Item 2 and 3 follow similar structure -->
+            </div>
+            <!-- Total Calculation -->
+            <div id="total" class="bg-black p-2 rounded-2xl">
+              <pre><p class="text-white">Sub Total <span class="font-bold">   $1910.00</span></p></pre>
+              <pre><p class="text-white">Shipping     $50.00</p></pre>
+              <pre><p class="text-yellow-300">Total <span class="font-bold">       $1960.00</span></p></pre>
+            </div>
+            <!-- Checkout Button -->
+            <button class="w-full bg-yellow-300 h-12 font-bold text-xl">
+              CHECKOUT
+            </button>
+          </div>
+
+          <div
+            id="profile"
+            class="sec flex flex-col items-center pt-3 gap-3 w-[20rem] hidden"
+          >
+            <!-- Profile Section -->
+            <h3 class="text-3xl font-bold">MY PROFILE</h3>
+            <!-- Profile Image -->
+            <img
+              src="./images/profile.jpg"
+              alt=""
+              class="w-32 h-32 rounded-full object-cover shadow-lg shadow-black"
+            />
+            <div id="list" class="flex flex-col gap-2">
+              <div
+                class="profile-content flex flex-col border-b-gray-400 border-2 border-t-transparent border-l-transparent border-r-transparent gap-1"
+              >
+                <!-- Username -->
+                <p class="font-semibold text-gray-500 text-lg">Username:</p>
+                <p class="text-md font-medium">Sakshi Rana</p>
+              </div>
+              <!-- Email -->
+              <div
+                class="profile-content flex flex-col border-b-gray-400 border-2 border-t-transparent border-l-transparent border-r-transparent gap-1"
+              >
+                <p class="font-semibold text-gray-500 text-lg">Email Id:</p>
+                <p class="text-md font-medium">
+                  sakshi769.be22@chitkara.edu.in
+                </p>
+              </div>
+              <!-- Date of Birth -->
+              <div
+                class="profile-content flex flex-col border-b-gray-400 border-2 border-t-transparent border-l-transparent border-r-transparent gap-1"
+              >
+                <p class="font-semibold text-gray-500 text-lg">
+                  Date of Birth:
+                </p>
+                <p class="text-md font-medium">19-11-2004</p>
+              </div>
+              <div
+                class="profile-content flex flex-col border-b-gray-400 border-2 border-t-transparent border-l-transparent border-r-transparent gap-1"
+              >
+                <!-- Address -->
+                <p class="font-semibold text-gray-500 text-lg">Address:</p>
+                <p class="text-md font-medium">123 Royal Street , New York</p>
+              </div>
+              <!-- Logout Button -->
+              <div id="logout" class="flex items-center justify-center gap-3">
+                <i
+                  class="fa-light fa-right-from-bracket fa-flip-horizontal text-black text-xl font-medium text-gray-500"
+                ></i>
+                <button class="font-medium text-md">Logout</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Tab Container -->
+        <div
+          id="tab-container"
+          class="flex w-full h-16 bg-gray-100 items-center border-2 border-white rounded-xl justify-evenly absolute bottom-0"
+        >
+          <!-- Home Tab -->
+          <div
+            class="tab flex flex-col items-center justify-center h-full relative hover:text-purple-500 transition-all cursor-pointer"
+          >
+            <i class="fa-solid fa-house mt-2 text-lg"></i>
+            <p>Home</p>
+          </div>
+          <!-- Categories Tab -->
+          <div
+            class="tab flex flex-col items-center justify-center h-full relative hover:text-purple-500 transition-all cursor-pointer"
+          >
+            <i
+              class="fa-solid fa-grid-2-plus fa-flip-vertical mt-2 text-lg"
+            ></i>
+            <p>Categories</p>
+          </div>
+          <!-- Cart Tab -->
+          <div
+            class="tab flex flex-col items-center justify-center h-full relative hover:text-purple-500 transition-all cursor-pointer"
+          >
+            <i class="fa-solid fa-cart-shopping mt-2 text-lg"></i>
+            <p>Cart</p>
+          </div>
+          <!-- Profile Tab -->
+          <div
+            class="tab flex flex-col items-center justify-center h-full relative hover:text-purple-500 transition-all cursor-pointer"
+          >
+            <i class="fa-solid fa-user mt-2 text-lg"></i>
+            <p>Profile</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <!-- Including JavaScript file -->
+  <script src="script.js"></script>
+</html>
